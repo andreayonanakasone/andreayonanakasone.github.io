@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archivio Documenti</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+      margin: 0;
+      padding: 20px;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    .container {
+      margin-top: 20px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      background: white;
+      margin: 10px 0;
+      padding: 12px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    a {
+      text-decoration: none;
+      color: #2980b9;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Archivio Documenti</h1>
+    <p>I miei file salvati su GitHub Pages</p>
+  </header>
+
+  <div class="container">
+    <h2>Documenti disponibili</h2>
+    <ul>
+      <li><a href="documento1.pdf" target="_blank">📄 Documento 1</a></li>
+      <li><a href="documento2.docx" target="_blank">📄 Documento 2</a></li>
+      <li><a href="documento3.txt" target="_blank">📄 Documento 3</a></li>
+    </ul>
+  </div>
+
+</body>
+</html>
